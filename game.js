@@ -7,7 +7,7 @@ function getComputerChoice() {
 playerInput = prompt("Enter your choice!").toLowerCase();
 
 function playRound(playerSelection, computerSelection) {
-    if (playerSelection === computerSelection) {
+    if (playerSelection === computerSelection.toLowerCase()) {
         return "It's a draw! Try again!";
     } else if (playerSelection === "rock" && computerSelection === "Paper") {
         return "You Lose! Paper beats Rock"
