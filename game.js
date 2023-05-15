@@ -1,7 +1,7 @@
 let playerScore = 0;
 let computerScore = 0;
 
-for (i = 0; i < 5; i++) {
+while (playerScore < 5 && computerScore < 5) {
 
     function getComputerChoice() {
         let options = ["Rock", "Paper", "Scissors"];
@@ -40,17 +40,15 @@ for (i = 0; i < 5; i++) {
     console.log(result);
     console.log(`Your score is now ${playerScore}/${computerScore}`);
 
-    // if (result === "It's a draw! Try again!") {
-    //     console.log(result);
-    //     console.log(`Your score is now ${playerScore}/${computerScore}`);
-    // } else if (result === "You Win! Rock beats Scissors" || "You Win! Paper beats Rock" || "You Win! Scissors beats Paper") {
-    //     console.log(result);
-    //     playerScore++;
-    //     console.log(`Your score is now ${playerScore}/${computerScore}`);
-    // } else if (result === "You Lose! Rock beats Scissors" || "You Lose! Paper beats Rock" || "You Lose! Scissors beats Paper") {
-    //     console.log(result);
-    //     computerScore++;
-    //     console.log(`Your score is now ${playerScore}/${computerScore}`);
-    // }
 }
+
+if (playerScore === 5) {
+    console.log("Congratulations! You won!");
+} else if (computerScore === 5) {
+    console.log("You lost! Better luck next time!");
+}
+
+// make game() function
+// improve menu and add quit option
+// prevent invalid input
 
