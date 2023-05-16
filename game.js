@@ -1,9 +1,17 @@
+let playerScore = 0;
+let computerScore = 0;
 
+let menu = prompt("Type 'game' to start or 'quit' to quit");
+
+while (menu !== "quit" && playerScore < 5 && computerScore < 5) {
+    if (menu === "game") {
+        game();
+    } else {
+        menu = prompt("Type 'game' to start or 'quit' to quit");
+    }
+}
 
 function game() {
-
-    let playerScore = 0;
-    let computerScore = 0;
 
     while (playerScore < 5 && computerScore < 5) {
 
@@ -36,13 +44,16 @@ function game() {
             } else if (playerSelection === "scissors" && computerSelection === "Rock") {
                 computerScore++
                 return "You Lose! Rock beats Scissors";
+            } else {
+                return "Invalid Input!";
             }
         }
+
 
         const computerSelection = getComputerChoice();
         let result = playRound(playerInput, computerSelection);
         console.log(result);
-        console.log(`The score is now ${playerScore}/${computerScore}`);
+        console.log(`Current score is ${playerScore}/${computerScore}`);
 
     }
 
@@ -54,11 +65,10 @@ function game() {
 
 }
 
-game()
 
 
 
-// make game() function
+
 // improve menu and add quit option
 // prevent invalid input
 
