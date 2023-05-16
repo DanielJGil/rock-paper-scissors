@@ -67,8 +67,3 @@ function game() {
 
 
 
-
-
-// improve menu and add quit option
-// prevent invalid input
-
