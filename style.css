@@ -73,21 +73,19 @@ body {
   align-items: center;
 }
 
-.rockimg {
+.leftimg {
   height: 150px;
 }
 
-.choice--0 {
+.playerchoice--0 {
   display: none;
 }
 
-.choice--1 {
-  height: 150px;
+.playerchoice--1 {
   display: none;
 }
 
-.choice--2 {
-  height: 150px;
+.playerchoice--2 {
   display: none;
 }
 
@@ -109,8 +107,11 @@ body {
   align-items: center;
 }
 
-.center .computerchoice img {
+.rightimg {
   height: 150px;
+}
+
+.hidden {
   display: none;
 }
 
