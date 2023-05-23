@@ -1,15 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap"
+      rel="stylesheet"
+    />
     <title>Rock Paper Scissors</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <div class="header">
+      <button class="newgame">NEW GAME</button>
+    </div>
+    <div class="title">
+      <p>ROCK PAPER SCISSORS</p>
+    </div>
+    <div class="center">
+      <div class="container">
+        <div class="playerchoice">
+          <img class="rockimg choice--0" src="img/rock2.png" alt="rock hand" />
+          <img
+            class="paperimg choice--1"
+            src="img/paper2.png"
+            alt="paper hand"
+          />
+          <img
+            class="scissorsimg choice--2"
+            src="img/scissors2.png"
+            alt="scissors hand"
+          />
+        </div>
+        <p>CHOOSE YOUR WEAPON...</p>
+        <div class="computerchoice">
+          <img src="img/scissors2.png" alt="paper hand" />
+        </div>
+      </div>
+    </div>
+    <div class="choice">
+      <div class="rock">
+        <img src="img/rock2.png" alt="rock hand" />
+      </div>
+      <div class="paper">
+        <img src="img/paper2.png" alt="rock hand" />
+      </div>
+      <div class="scissors">
+        <img src="img/scissors2.png" alt="rock hand" />
+      </div>
+    </div>
+    <div class="footer">
+      <div class="player">
+        <p class="playerscore">0</p>
+        <p class="text">Player Score</p>
+      </div>
+      <div class="computer">
+        <p class="computerscore">0</p>
+        <p class="text">Computer Score</p>
+      </div>
+    </div>
+
     <script src="game.js"></script>
-</body>
-
+  </body>
 </html>
