@@ -1,0 +1,215 @@
+body {
+  background: rgb(232, 174, 238);
+  background: radial-gradient(
+    circle,
+    rgb(190, 99, 200) 0%,
+    rgba(148, 168, 233, 1) 100%
+  );
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .newgame {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  padding: 10px 20px;
+  background: rgb(0, 0, 0, 0.2);
+  color: white;
+  border: solid black 3px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik Spray Paint", cursive;
+  transition: 0.25s;
+}
+
+.header .newgame:hover {
+  transform: translateY(3px);
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.title p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik Spray Paint", cursive;
+  font-size: 60px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.center {
+  flex: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+.center .container {
+  display: flex;
+  flex: 1;
+}
+
+.center .playerchoice {
+  height: 200px;
+  width: 200px;
+  margin-left: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rockimg {
+  height: 150px;
+}
+
+.choice--0 {
+  display: none;
+}
+
+.choice--1 {
+  height: 150px;
+  display: none;
+}
+
+.choice--2 {
+  height: 150px;
+  display: none;
+}
+
+.center p {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family: "Rubik Spray Paint", cursive;
+}
+
+.center .computerchoice {
+  height: 200px;
+  width: 200px;
+  margin-right: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center .computerchoice img {
+  height: 150px;
+  display: none;
+}
+
+.choice {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.choice .rock {
+  border-radius: 50%;
+  transition: 0.25s;
+}
+
+.choice .rock img {
+  height: 130px;
+}
+
+.choice .rock:hover {
+  /* box-shadow: 10px 10px 100px pink; */
+  cursor: pointer;
+  transform: translateY(-7px);
+  transition: 0.25s;
+}
+
+.choice .paper {
+  margin-left: 50px;
+  border-radius: 50%;
+  transition: 0.25s;
+}
+
+.choice .paper img {
+  height: 150px;
+}
+
+.choice .paper:hover {
+  /* box-shadow: 10px 10px 100px pink; */
+  cursor: pointer;
+  transform: translateY(-7px);
+  transition: 0.25s;
+}
+
+.choice .scissors {
+  border-radius: 50%;
+  transition: 0.25s;
+}
+
+.choice .scissors img {
+  height: 120px;
+}
+
+.choice .scissors:hover {
+  /* box-shadow: 10px 10px 100px pink; */
+  cursor: pointer;
+  transform: translateY(-7px);
+  transition: 0.25s;
+}
+
+.footer {
+  flex: 1;
+  display: flex;
+}
+
+.footer .player {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik Spray Paint", cursive;
+}
+
+.footer .player .playerscore {
+  font-size: 100px;
+  margin-top: 20px;
+}
+
+.footer .player .text {
+  font-size: 50px;
+  margin-top: -100px;
+}
+
+.footer .computer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik Spray Paint", cursive;
+}
+
+.footer .computer .computerscore {
+  font-size: 100px;
+  margin-top: 20px;
+}
+
+.footer .computer .text {
+  font-size: 50px;
+  margin-top: -100px;
+}
