@@ -41,6 +41,11 @@ body {
   cursor: pointer;
 }
 
+.header .newgame:active {
+  cursor: pointer;
+  transform: scale(95%);
+}
+
 .title p {
   display: flex;
   justify-content: center;
@@ -133,9 +138,14 @@ body {
 }
 
 .choice .rock:hover {
-  /* box-shadow: 10px 10px 100px pink; */
   cursor: pointer;
   transform: translateY(-7px);
+  transition: 0.25s;
+}
+
+.choice .rock:active {
+  cursor: pointer;
+  transform: translateY(0);
   transition: 0.25s;
 }
 
@@ -150,9 +160,14 @@ body {
 }
 
 .choice .paper:hover {
-  /* box-shadow: 10px 10px 100px pink; */
   cursor: pointer;
   transform: translateY(-7px);
+  transition: 0.25s;
+}
+
+.choice .paper:active {
+  cursor: pointer;
+  transform: translateY(0);
   transition: 0.25s;
 }
 
@@ -166,9 +181,14 @@ body {
 }
 
 .choice .scissors:hover {
-  /* box-shadow: 10px 10px 100px pink; */
   cursor: pointer;
   transform: translateY(-7px);
+  transition: 0.25s;
+}
+
+.choice .scissors:active {
+  cursor: pointer;
+  transform: translateY(0);
   transition: 0.25s;
 }
 
