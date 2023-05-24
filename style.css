@@ -13,13 +13,24 @@ body {
   padding: 0;
 }
 
+.wingame {
+  background: rgb(230, 0, 255);
+  transition: 3s;
+}
+
+.losegame {
+  background: black;
+  color: red;
+  transition: 3s;
+}
+
 .header {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.header .newgame {
+.newgame {
   font-size: 30px;
   margin-top: 20px;
   margin-bottom: -10px;
@@ -33,6 +44,11 @@ body {
   align-items: center;
   font-family: "Rubik Spray Paint", cursive;
   transition: 0.25s;
+}
+
+.endgamebtn {
+  border: solid red 2px;
+  color: red;
 }
 
 .header .newgame:hover {
