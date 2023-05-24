@@ -37,12 +37,12 @@ rock.addEventListener("click", function () {
     computerChoice.src = `img/${compChoice}.png`;
 
     if (compChoice === 2) {
-      mainText.textContent = "You win! Rock beats Scissors!";
+      mainText.textContent = "You win! Rock wins!";
       playerScore++;
       playerPoints.textContent = playerScore;
       result();
     } else if (compChoice === 1) {
-      mainText.textContent = "You lose! Paper beats Rock!";
+      mainText.textContent = "You lose! Paper wins!";
       computerScore++;
       computerPoints.textContent = computerScore;
       result();
@@ -64,12 +64,12 @@ paper.addEventListener("click", function () {
     computerChoice.src = `img/${compChoice}.png`;
 
     if (compChoice === 0) {
-      mainText.textContent = "You win! Paper beats Rock!";
+      mainText.textContent = "You win! Paper wins!";
       playerScore++;
       playerPoints.textContent = playerScore;
       result();
     } else if (compChoice === 2) {
-      mainText.textContent = "You lose! Scissors beats Paper!";
+      mainText.textContent = "You lose! Scissors wins!";
       computerScore++;
       computerPoints.textContent = computerScore;
       result();
@@ -91,12 +91,12 @@ scissors.addEventListener("click", function () {
     computerChoice.src = `img/${compChoice}.png`;
 
     if (compChoice === 0) {
-      mainText.textContent = "You lose! Rock beats Scissors!";
+      mainText.textContent = "You lose! Rock wins!";
       computerScore++;
       computerPoints.textContent = computerScore;
       result();
     } else if (compChoice === 1) {
-      mainText.textContent = "You win! Scissors beats paper!";
+      mainText.textContent = "You win! Scissors wins!";
       playerScore++;
       playerPoints.textContent = playerScore;
       result();

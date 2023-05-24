@@ -31,7 +31,7 @@ body {
 }
 
 .newgame {
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 20px;
   margin-bottom: -10px;
   padding: 10px 20px;
@@ -67,7 +67,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Rubik Spray Paint", cursive;
-  font-size: 60px;
+  font-size: 50px;
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -88,14 +88,14 @@ body {
 .center .playerchoice {
   height: 200px;
   width: 200px;
-  margin-left: 250px;
+  margin-left: 170px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .leftimg {
-  height: 150px;
+  height: 120px;
 }
 
 .playerchoice--0 {
@@ -115,21 +115,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 30px;
   font-family: "Rubik Spray Paint", cursive;
 }
 
 .center .computerchoice {
   height: 200px;
   width: 200px;
-  margin-right: 250px;
+  margin-right: 170px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .rightimg {
-  height: 150px;
+  height: 120px;
 }
 
 .hidden {
@@ -150,7 +150,7 @@ body {
 }
 
 .choice .rock img {
-  height: 130px;
+  height: 100px;
 }
 
 .choice .rock:hover {
@@ -172,7 +172,7 @@ body {
 }
 
 .choice .paper img {
-  height: 150px;
+  height: 110px;
 }
 
 .choice .paper:hover {
@@ -193,7 +193,7 @@ body {
 }
 
 .choice .scissors img {
-  height: 120px;
+  height: 90px;
 }
 
 .choice .scissors:hover {
@@ -223,13 +223,13 @@ body {
 }
 
 .footer .player .playerscore {
-  font-size: 100px;
+  font-size: 75px;
   margin-top: 20px;
 }
 
 .footer .player .text {
-  font-size: 50px;
-  margin-top: -100px;
+  font-size: 30px;
+  margin-top: -70px;
 }
 
 .footer .computer {
@@ -242,11 +242,11 @@ body {
 }
 
 .footer .computer .computerscore {
-  font-size: 100px;
+  font-size: 75px;
   margin-top: 20px;
 }
 
 .footer .computer .text {
-  font-size: 50px;
-  margin-top: -100px;
+  font-size: 30px;
+  margin-top: -70px;
 }
